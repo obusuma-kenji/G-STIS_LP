@@ -601,135 +601,106 @@ footer{background:#dce6f5;border-top:1px solid rgba(26,101,214,0.15);padding:48p
 
 
 <!-- RESOURCES SECTION -->
-<section class="res-sec" id="resources">
+<section id="resources" class="res-sec">
   <div class="container">
-    <div class="sec-label">Resources &amp; Media</div>
-    <h2 class="sec-title">資料・<em>メディアライブラリ</em></h2>
-    <p class="sec-sub">G-STISのグランド設計資料・解説音声・解説動画をこちらからご覧いただけます。</p>
+    <div class="sec-label">Resources</div>
+    <h2 class="sec-title">資料・音声・動画</h2>
+    <p class="sec-sub">PDFはプレビュー表示とダウンロードに対応。音声（MP3/M4A）と動画（MP4）はブラウザでそのまま再生できます。</p>
 
-    <!-- PDF Downloads -->
-    <div style="margin-top:48px;">
-      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--blue-accent);margin-bottom:20px;padding-left:20px;position:relative;">
-        <span style="position:absolute;left:0;top:50%;transform:translateY(-50%);width:12px;height:1px;background:var(--blue-accent);"></span>
-        PDF Documents
-      </div>
-      <div class="pdf-grid reveal">
+    <div class="pdf-grid" style="margin-top:48px;">
 
-        <!-- PDF 1 -->
-        <div class="pdf-card">
-          <div class="pdf-icon-wrap">
-            <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="1" y="1" width="30" height="38" rx="3" fill="white" stroke="#1a65d6" stroke-width="1.5"/>
-              <rect x="1" y="1" width="30" height="10" rx="3" fill="#1a65d6"/>
-              <path d="M7 6h18" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-              <text x="16" y="8" font-family="Arial" font-size="5" font-weight="bold" fill="white" text-anchor="middle">PDF</text>
-              <rect x="5" y="18" width="22" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="23" width="18" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="28" width="20" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="33" width="14" height="2" rx="1" fill="#dce6f5"/>
-            </svg>
-          </div>
-          <div class="pdf-info">
-            <div class="pdf-tag">グランド設計書（英語版・詳細スライド）</div>
-            <h4 class="pdf-title">G-STIS Grand Design</h4>
-            <p class="pdf-desc">一般中小企業向け処遇改善認定・還元システムの完全版グランド設計スライドデッキ。介護モデルの応用から4段階認定グレード、社会保険料オフセットスキームまで全14スライド収録。</p>
-            <div class="pdf-meta">
-              <span class="pdf-size">📄 17.2 MB　|　14 slides</span>
-            </div>
-            <a href="assets/G-STIS_Grand_Design.pdf" download="G-STIS_Grand_Design.pdf" class="pdf-dl-btn">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2v8M5 7l3 3 3-3M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              ダウンロード
-            </a>
-          </div>
-          <div class="pdf-preview-wrap">
-            <iframe src="assets/G-STIS_Grand_Design.pdf" class="pdf-iframe" title="G-STIS Grand Design PDF"></iframe>
-            <div class="pdf-preview-overlay">クリックで拡大表示</div>
-          </div>
+      <!-- PDF 1 -->
+      <div class="pdf-card">
+        <div class="pdf-info">
+          <div class="pdf-tag">PDF</div>
+          <div class="pdf-title">中小企業処遇改善加算グランド設計（日本語版）</div>
+          <div class="pdf-desc">研究報告書（日本語）。</div>
+          <div class="pdf-meta"><div class="pdf-size">assets/中小企業処遇改善加算グランド設計.pdf</div></div>
+
+          <a class="pdf-dl-btn" href="assets/中小企業処遇改善加算グランド設計.pdf" download>
+            PDFをダウンロード
+          </a>
         </div>
-
-        <!-- PDF 2 -->
-        <div class="pdf-card">
-          <div class="pdf-icon-wrap">
-            <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="1" y="1" width="30" height="38" rx="3" fill="white" stroke="#0099bb" stroke-width="1.5"/>
-              <rect x="1" y="1" width="30" height="10" rx="3" fill="#0099bb"/>
-              <text x="16" y="8" font-family="Arial" font-size="5" font-weight="bold" fill="white" text-anchor="middle">PDF</text>
-              <rect x="5" y="18" width="22" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="23" width="18" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="28" width="20" height="2" rx="1" fill="#dce6f5"/>
-              <rect x="5" y="33" width="14" height="2" rx="1" fill="#dce6f5"/>
-            </svg>
-          </div>
-          <div class="pdf-info">
-            <div class="pdf-tag" style="color:#0099bb;">グランド設計書（日本語版・学術論文形式）</div>
-            <h4 class="pdf-title">中小企業処遇改善加算グランド設計</h4>
-            <p class="pdf-desc">介護職員等処遇改善加算システムを基盤とした一般中小企業向け処遇改善認定・還元システムの学術的グランド設計。制度の理論的背景から具体的な政策設計まで詳述した研究報告書。</p>
-            <div class="pdf-meta">
-              <span class="pdf-size">📄 0.3 MB　|　研究報告書</span>
-            </div>
-            <a href="assets/中小企業処遇改善加算グランド設計.pdf" download="中小企業処遇改善加算グランド設計.pdf" class="pdf-dl-btn" style="background:linear-gradient(135deg,#0099bb,#006f88);">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2v8M5 7l3 3 3-3M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              ダウンロード
-            </a>
-          </div>
-          <div class="pdf-preview-wrap">
-            <iframe src="assets/中小企業処遇改善加算グランド設計.pdf" class="pdf-iframe" title="中小企業処遇改善加算グランド設計 PDF"></iframe>
-            <div class="pdf-preview-overlay">クリックで拡大表示</div>
-          </div>
+        <div class="pdf-preview-wrap">
+          <iframe class="pdf-iframe" src="assets/中小企業処遇改善加算グランド設計.pdf"></iframe>
         </div>
-
       </div>
+
+      <!-- PDF 2 -->
+      <div class="pdf-card">
+        <div class="pdf-info">
+          <div class="pdf-tag">PDF</div>
+          <div class="pdf-title">G-STIS Grand Design（英語版）</div>
+          <div class="pdf-desc">スライドデッキ（英語）。</div>
+          <div class="pdf-meta"><div class="pdf-size">assets/G-STIS_Grand_Design.pdf</div></div>
+
+          <a class="pdf-dl-btn" href="assets/G-STIS_Grand_Design.pdf" download>
+            PDFをダウンロード
+          </a>
+        </div>
+        <div class="pdf-preview-wrap">
+          <iframe class="pdf-iframe" src="assets/G-STIS_Grand_Design.pdf"></iframe>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Audio -->
-    <div style="margin-top:56px;">
-      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#9a6f10;margin-bottom:20px;padding-left:20px;position:relative;">
-        <span style="position:absolute;left:0;top:50%;transform:translateY(-50%);width:12px;height:1px;background:#9a6f10;"></span>
-        Audio — 解説音声
-      </div>
-      <div class="media-card reveal">
+    <div style="margin-top:40px; display:grid; gap:24px;">
+
+      <!-- Audio -->
+      <div class="media-card">
         <div class="media-card-left">
           <div class="audio-thumb">
-            <div class="audio-wave">
+            <div class="audio-wave" aria-hidden="true">
               <span></span><span></span><span></span><span></span><span></span>
               <span></span><span></span><span></span><span></span><span></span>
             </div>
-            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;color:#9a6f10;margin-top:12px;">AUDIO</div>
-          </div>
-          <div style="margin-top:16px;">
-            <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#9a6f10;margin-bottom:6px;">解説音声</div>
-            <h4 style="font-family:'Noto Serif JP',serif;font-size:1.1rem;font-weight:700;color:#0d1f3c;line-height:1.4;margin-bottom:8px;">社会保険料相殺システム</h4>
-            <p style="font-size:0.82rem;color:#4a6080;line-height:1.75;">G-STISの核心である「社会保険料オフセット・スキーム」の仕組みと、企業の賃上げ障壁を解消するメカニズムを音声で詳しく解説。</p>
+            <div style="margin-top:14px;font-size:0.78rem;color:#7a5500;letter-spacing:0.08em;">AUDIO</div>
           </div>
         </div>
-        <div class="media-card-right">
-          <audio controls style="width:100%;border-radius:8px;outline:none;">
-            <source src="assets/shakaihoken.m4a" type="audio/mp4">
-            お使いのブラウザはaudio要素に対応していません。
-          </audio>
-          <p style="font-size:0.76rem;color:#4a6080;margin-top:12px;">※ 音声ファイル（M4A形式）　|　ブラウザ対応のプレイヤーで再生できます</p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Video -->
-    <div style="margin-top:48px;">
-      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1a65d6;margin-bottom:20px;padding-left:20px;position:relative;">
-        <span style="position:absolute;left:0;top:50%;transform:translateY(-50%);width:12px;height:1px;background:#1a65d6;"></span>
-        Video — 解説動画
-      </div>
-      <div class="video-card reveal">
-        <div class="video-header">
-          <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#1a65d6;margin-bottom:8px;">解説動画</div>
-          <h4 style="font-family:'Noto Serif JP',serif;font-size:1.2rem;font-weight:700;color:#0d1f3c;line-height:1.4;">日本の賃金停滞——解決への新設計図</h4>
-          <p style="font-size:0.84rem;color:#4a6080;margin-top:8px;line-height:1.75;">日本の賃金停滞問題の構造的要因を分析し、G-STISによる解決アーキテクチャを動画で解説。現行制度の限界から新システムの全体像まで包括的に説明。</p>
+        <div class="media-card-right">
+          <div class="pdf-tag" style="color:#7a5500;">音声</div>
+          <div class="pdf-title">解説音声：社会保険料相殺システム</div>
+          <div class="pdf-desc">M4A形式。ブラウザで再生できます（対応外ブラウザの場合はダウンロードして再生）。</div>
+
+          <audio controls style="width:100%; margin-top:10px;">
+            <source src="assets/shakaihoken.m4a" type="audio/mp4">
+            お使いのブラウザは audio 再生に対応していません。
+          </audio>
+
+          <div style="margin-top:12px;">
+            <a class="pdf-dl-btn" href="assets/shakaihoken.m4a" download>音声をダウンロード（M4A）</a>
+          </div>
         </div>
+      </div>
+
+      <!-- Video -->
+      <div class="video-card">
+        <div class="video-header">
+          <div class="pdf-tag">動画</div>
+          <div class="pdf-title">解説動画：日本の賃金停滞・解決への新設計図</div>
+          <div class="pdf-desc">MP4形式。ブラウザで再生できます。</div>
+
+          <div style="margin-top:14px;">
+            <a class="pdf-dl-btn" href="assets/chingin_sekkei.mp4" download>動画をダウンロード（MP4）</a>
+          </div>
+        </div>
+
         <div class="video-player-wrap">
-          <video controls style="width:100%;border-radius:0 0 10px 10px;display:block;background:#000;max-height:540px;">
+          <video controls style="width:100%; display:block;">
             <source src="assets/chingin_sekkei.mp4" type="video/mp4">
-            お使いのブラウザはvideo要素に対応していません。
+            お使いのブラウザは video 再生に対応していません。
           </video>
         </div>
+      </div>
+
+    </div>
+
+    <div class="note-box" style="margin-top:44px;">
+      <div class="pdf-title" style="margin-bottom:8px;">補足</div>
+      <div class="pdf-desc" style="margin:0;">
+        これらのファイルは <b>index.html と同じ階層の assets フォルダ</b>に置いてください。GitHub Pages等で公開する場合も同様です。
       </div>
     </div>
 
